@@ -6,3 +6,6 @@ We provide the source code for the Fundamental Probabilistic Cryptographic Opera
 
 The FPCO library is implemented in C, and a project in XCODE is available. It should be simple to compile the FPCO library in other platforms or operating systems. There is only one dependency to the library with is the relic-toolkit, available at: https://github.com/relic-toolkit
 
+# Disclaimer
+
+This project is at most alpha-quality software. It is intended for research only and not for practical use. Use at your own risk.
