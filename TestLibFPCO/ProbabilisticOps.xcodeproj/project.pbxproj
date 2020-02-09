@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E45B594231A997B009C61E6 /* libfpco.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E45B592231A997A009C61E6 /* libfpco.a */; };
+		2E45B595231A997B009C61E6 /* librelic_s.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E45B593231A997A009C61E6 /* librelic_s.a */; };
+		2E7638942306DE26005F07EC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E7638932306DE26005F07EC /* main.c */; };
+		2E7638AC23088107005F07EC /* small_number_tests.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E7638AB23088107005F07EC /* small_number_tests.c */; };
+		2E7638B0230DAF67005F07EC /* probabilistic_ops_tests.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E7638AF230DAF67005F07EC /* probabilistic_ops_tests.c */; };
+		2E7638B6230F9D12005F07EC /* fpco_tests.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E7638B5230F9D12005F07EC /* fpco_tests.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E76388E2306DE26005F07EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2E45B592231A997A009C61E6 /* libfpco.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfpco.a; path = ../deps/libfpco.a; sourceTree = "<group>"; };
+		2E45B593231A997A009C61E6 /* librelic_s.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librelic_s.a; path = ../deps/librelic_s.a; sourceTree = "<group>"; };
+		2E7638902306DE26005F07EC /* ProbabilisticOps */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProbabilisticOps; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7638932306DE26005F07EC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2E7638AA23088107005F07EC /* small_number_tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = small_number_tests.h; sourceTree = "<group>"; };
+		2E7638AB23088107005F07EC /* small_number_tests.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = small_number_tests.c; sourceTree = "<group>"; };
+		2E7638AD2309C214005F07EC /* test_configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_configuration.h; sourceTree = "<group>"; };
+		2E7638AE230DAF67005F07EC /* probabilistic_ops_tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = probabilistic_ops_tests.h; sourceTree = "<group>"; };
+		2E7638AF230DAF67005F07EC /* probabilistic_ops_tests.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = probabilistic_ops_tests.c; sourceTree = "<group>"; };
+		2E7638B4230F9D12005F07EC /* fpco_tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fpco_tests.h; sourceTree = "<group>"; };
+		2E7638B5230F9D12005F07EC /* fpco_tests.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fpco_tests.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E76388D2306DE26005F07EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E45B594231A997B009C61E6 /* libfpco.a in Frameworks */,
+				2E45B595231A997B009C61E6 /* librelic_s.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E45B58E231A94B7009C61E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E45B592231A997A009C61E6 /* libfpco.a */,
+				2E45B593231A997A009C61E6 /* librelic_s.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E7638872306DE26005F07EC = {
+			isa = PBXGroup;
+			children = (
+				2E7638922306DE26005F07EC /* ProbabilisticOps */,
+				2E7638912306DE26005F07EC /* Products */,
+				2E45B58E231A94B7009C61E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E7638912306DE26005F07EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E7638902306DE26005F07EC /* ProbabilisticOps */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E7638922306DE26005F07EC /* ProbabilisticOps */ = {
+			isa = PBXGroup;
+			children = (
+				2E7638A8230880A9005F07EC /* tests */,
+				2E7638932306DE26005F07EC /* main.c */,
+			);
+			path = ProbabilisticOps;
+			sourceTree = "<group>";
+		};
+		2E7638A8230880A9005F07EC /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				2E7638AA23088107005F07EC /* small_number_tests.h */,
+				2E7638AB23088107005F07EC /* small_number_tests.c */,
+				2E7638AD2309C214005F07EC /* test_configuration.h */,
+				2E7638AE230DAF67005F07EC /* probabilistic_ops_tests.h */,
+				2E7638AF230DAF67005F07EC /* probabilistic_ops_tests.c */,
+				2E7638B4230F9D12005F07EC /* fpco_tests.h */,
+				2E7638B5230F9D12005F07EC /* fpco_tests.c */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E76388F2306DE26005F07EC /* ProbabilisticOps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E7638972306DE26005F07EC /* Build configuration list for PBXNativeTarget "ProbabilisticOps" */;
+			buildPhases = (
+				2E76388C2306DE26005F07EC /* Sources */,
+				2E76388D2306DE26005F07EC /* Frameworks */,
+				2E76388E2306DE26005F07EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProbabilisticOps;
+			productName = ProbabilisticOps;
+			productReference = 2E7638902306DE26005F07EC /* ProbabilisticOps */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E7638882306DE26005F07EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Murilo Coutinho";
+				TargetAttributes = {
+					2E76388F2306DE26005F07EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2E76388B2306DE26005F07EC /* Build configuration list for PBXProject "ProbabilisticOps" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E7638872306DE26005F07EC;
+			productRefGroup = 2E7638912306DE26005F07EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E76388F2306DE26005F07EC /* ProbabilisticOps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E76388C2306DE26005F07EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7638942306DE26005F07EC /* main.c in Sources */,
+				2E7638B0230DAF67005F07EC /* probabilistic_ops_tests.c in Sources */,
+				2E7638AC23088107005F07EC /* small_number_tests.c in Sources */,
+				2E7638B6230F9D12005F07EC /* fpco_tests.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E7638952306DE26005F07EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2E7638962306DE26005F07EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2E7638982306DE26005F07EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(PROJECT_DIR)/../fpco",
+					"$(PROJECT_DIR)/../deps/include_relic",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../deps",
+					"$(PROJECT_DIR)/ProbabilisticOps",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E7638992306DE26005F07EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(PROJECT_DIR)/../fpco",
+					"$(PROJECT_DIR)/../deps/include_relic",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ProbabilisticOps",
+					"$(PROJECT_DIR)/../deps",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E76388B2306DE26005F07EC /* Build configuration list for PBXProject "ProbabilisticOps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E7638952306DE26005F07EC /* Debug */,
+				2E7638962306DE26005F07EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E7638972306DE26005F07EC /* Build configuration list for PBXNativeTarget "ProbabilisticOps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E7638982306DE26005F07EC /* Debug */,
+				2E7638992306DE26005F07EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E7638882306DE26005F07EC /* Project object */;
+}
