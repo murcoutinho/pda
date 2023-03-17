@@ -1,4 +1,6 @@
-# Probabilistic Diffusion Analysis 
+# Continuous Diffusion Analysis 
+
+Implementation on tools developed in [CDA paper](https://ieeexplore.ieee.org/document/9127433).
 
 This project implements the technique presented in the paper "Probabilistic Diffusion Analysis" (PDA) which proposes a new technique that can be used to study, design, and cryptanalysis of cryptographic algorithms. PDA allows us to generalize cryptographic algorithms by transforming the discrete bits into probabilities such that the algorithm is generalized into a continuous mathematical function. 
 
